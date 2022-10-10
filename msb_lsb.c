@@ -1,4 +1,17 @@
 #include <stdio.h>
+
+/*
+Test Cases : Inputs                 Outputs
+                9                      3
+                2                      0
+                0                      ask for another input
+                -1                      ask for another input
+                10                      2
+                1.5
+*/
+
+
+
 /*
 Requires : 
 positive integer which is entered by the user
