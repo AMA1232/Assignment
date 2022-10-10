@@ -1,7 +1,20 @@
 #include <stdio.h>
+/*
+Requires : 
+positive integer which is entered by the user
 
+Effects : 
+Returns the position of the most significant bit
+*/
 int msb(unsigned int num);
 
+/*
+Requires : 
+positive integer which is entered by the user
+
+Effects : 
+Returns the position of the least significant bit
+*/
 int lsb(unsigned int num);
 
 const int NUMBER_OF_INTEGER_BITS = 32;
