@@ -1,5 +1,10 @@
 #include <stdio.h>
- 
+ /*
+ Requires : 
+ Two integers which are chosen by the user
+ Effect : 
+ Returns the hamming distance between the two integers
+ */
 int hammingdistance(int num1 , int num2);
  
 int main(){
