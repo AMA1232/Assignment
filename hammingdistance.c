@@ -20,7 +20,19 @@ int main(){
  
    return 0;
 }
- 
+ /*
+Test Cases : 
+Inputs : num1 ___ num2  : Ouput
+          0   ___   3   : 2
+          1   ___   3   : 1
+          0   ___   0   : 0
+          -10 ___ -20   : 3
+          ab   ___  (doesn't allow the user to put another integer)   : 7
+        2,147,483,647 (aka largest integer value) ___  (doesn't allow the user to put another integer) : 2
+        -10 ___ 90 : 0
+        100 ___ 200 : 4
+        20 ___ ab(takes it as 1) : 3
+ */
 int hammingdistance(int x, int y)
 {
    int exclusive_num = x ^ y; //If the aligned bits don't match the 1 is outputed in the exclusive_num , otherwise 0 is outputed
