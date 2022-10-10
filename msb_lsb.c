@@ -7,7 +7,7 @@ Test Cases : Inputs                 Outputs
                 0                      ask for another input
                 -1                      ask for another input
                 10                      2
-                1.5
+                1.5                     0
 */
 
 

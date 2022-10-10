@@ -32,6 +32,8 @@ Inputs : num1 ___ num2  : Ouput
         -10 ___ 90 : 0
         100 ___ 200 : 4
         20 ___ ab(takes it as 1) : 3
+        2.3 --- (desn't take an input) : 2
+        5 --- 2.3         : 3
  */
 int hammingdistance(int x, int y)
 {
